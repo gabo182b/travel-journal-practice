@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #F55A5A;
+    height: 3rem;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.904em;
+    line-height: 1.125rem;
+    letter-spacing: -0.075em;
+    margin: 0.5rem;
+}
+

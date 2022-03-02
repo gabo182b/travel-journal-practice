@@ -1,0 +1,76 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 29.375rem;
+    max-height: 10.5rem;
+    margin-top: 6.25rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 5rem;
+}
+
+.card-container__img img {
+    width: 7.813rem;
+    height: 10.5rem;
+    border-radius: 5px;
+}
+
+.card-container__info {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 1.188rem;
+    display: flex;
+    flex-direction: column;
+    color: #2B283A
+}
+
+.card-container__location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+.card-container__info--icon {
+    color: #F55A5A
+}
+
+.card-container__info--location {
+    font-size: 0.64rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.17em;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.card-container__info--anchor {
+    font-size: 0.64rem;
+    line-height: 0.75rem;
+    font-weight: normal;
+    color: #918E9B;
+}
+
+.card-container__info--title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+    margin-bottom: 1rem;
+}
+
+.date-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.64rem;
+    line-height: 0.75rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.card-container__info--description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.64rem;
+    line-height: 0.938rem;
+}
