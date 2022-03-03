@@ -13,7 +13,7 @@ function Card(props) {
                 <div className="card-container__location">
                     <FontAwesomeIcon className="card-container__info--icon" icon={faLocationDot} />
                     <p className="card-container__info--location">{props.location}</p>
-                    <a className="card-container__info--anchor" href={props.googleMapsUrl}>Wiew on Google Maps</a>
+                    <a className="card-container__info--anchor" href={props.googleMapsUrl} target="_blank">Wiew on Google Maps</a>
                 </div>
                 <h2 className="card-container__info--title">{props.title}</h2>
                 <div className="date-container">
